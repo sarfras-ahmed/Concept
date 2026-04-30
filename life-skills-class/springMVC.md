@@ -1,11 +1,11 @@
 # MVC Archetecture and Spring FrameWork
 
-##Introduction
+## Introduction
 
 Model View Controller(MVC) is a design Pattern use to separate application logic into three interconnected components. It helps developers organize code, improve maintainability, and enable scalability. The Spring Framework uses this pattern to build robust Java web applications.
 
 
-##MVC Archetecture Overview 
+## MVC Archetecture Overview 
 
 MVC consist of three main concepts:
 • Model: Represents the data and business logic of the application
@@ -14,7 +14,7 @@ MVC consist of three main concepts:
  
 This separation ensure that changes in one component do not affect others directly.
 
-##How MVC works
+## How MVC works
 
 1. The user sends a request through the view 
 2. The Controller receives the request and process it
@@ -23,6 +23,13 @@ This separation ensure that changes in one component do not affect others direct
 5. The controller sends the response to the view 
 6. the view displays the final output to the user 
 
-##Spring Framewprk and MVC 
+## Spring Framewprk and MVC 
 
-The Spring FrameWork provides a module called 
+The Spring FrameWork provides a module called Spring MVC which simplifies the implementation of the MVC pattern. It uses annotations and dependency injection to reduce boilerplate code.
+
+## Key features of Spring MVC
+
+•Uses annotations like @Controller and @RequestMapping
+•Supports RESTful web services
+•Integrates easily with databases and view technologies
+
